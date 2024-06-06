@@ -2,4 +2,26 @@
     header{
        display: none;
     }
+   
+    .bannerTittle{
+        font-size: 40px;
+        font-family: "Oswald", sans-serif;
+         
+     }
+     .bannerInnerSubtitle{
+        display: none;
+     }
+}
+
+@media screen and (min-width: 577px) {
+    .bannerTopDetails{
+        background-color: #fff;
+        width: 400px;
+        margin: auto;
+        text-align: center;
+        padding: 50px 0px;
+    }
+    .bannerTtitle{
+        font-size: 40px;
+    }
 }

@@ -89,3 +89,66 @@ header{
     color: black;
 }
 /* HEader design css end */
+
+/* Banner section start */
+.bannerTopDetails{
+    text-align: center;
+}
+.bannerTtitle{
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.bannerDesc{
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    margin: 20px 0px;
+}
+.bannerDesc span{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.bannerImg{
+    position: relative;
+    background-color: #ccc;
+}
+.bannerInnerImg img{
+    max-width: 100%;
+    height: auto;
+}
+
+.bannerTittle{
+   font-size: 40px;
+   font-family: "Oswald", sans-serif;
+   margin: 15px 0px;
+}
+.bannerInnerSubtitle{
+    font-size: 60px;
+    margin: 15px 0px;
+}
+.bannerTittle, .bannerInnerSubtitle{
+    color: white;
+}
+.bannerInnerDetails{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    margin-left: 20px;
+}
+.bannerInnerDetails button{
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: black;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+.bannerInnerDetails button:hover{
+    background-color: #edecec;
+}
+/* Banner section end */

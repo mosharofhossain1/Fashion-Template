@@ -23,13 +23,15 @@
     "wdth" 100;
 }
 */
-body{
+body {
     font-family: "Open Sans", sans-serif;
 }
+
 *,
 ::after,
 ::before,
-a,li{
+a,
+li {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -37,108 +39,131 @@ a,li{
     box-sizing: border-box;
 }
 
-.container{
+.container {
     max-width: 1270px;
     width: 100%;
     margin: 0 auto;
 }
 
-.commonDesign{
+.commonDesign {
     background-color: black;
     padding: 20px;
     font-size: 20px;
     color: white;
 }
-.textCenter{
+
+.textCenter {
     text-align: center;
 }
 
+hr {
+    margin: 20px 0px;
+}
+
 /* HEader design css start */
-header{
+header {
     display: flex;
     justify-content: space-between;
     background-color: black;
     align-items: center;
 }
- .headerSocialIcons{
+
+.headerSocialIcons {
     display: flex;
- }
- .headerSocialIcons li, .headerSearchIcons li{
+}
+
+.headerSocialIcons li,
+.headerSearchIcons li {
     padding: 15px;
     text-align: center;
     transition: .4s;
- }
-.headerSocialIcons i, .headerSearchIcons i{
+}
+
+.headerSocialIcons i,
+.headerSearchIcons i {
     color: white;
     font-size: 20px;
-     
-   
 }
+
 .headerSocialIcons li:hover {
     background-color: #ccc;
     color: black;
 }
-.headerSocialIcons li:hover i{
+
+.headerSocialIcons li:hover i {
     color: black;
 }
-.headerSearchIcons li:hover{
+
+.headerSearchIcons li:hover {
     background-color: #ccc;
     color: black;
 }
-.headerSearchIcons li:hover i{
+
+.headerSearchIcons li:hover i {
     color: black;
 }
+
 /* HEader design css end */
 
 /* Banner section start */
-.bannerTopDetails{
+.bannerTopDetails {
     text-align: center;
 }
-.bannerTtitle{
+
+.bannerTtitle {
     font-size: 30px;
     font-family: "Oswald", sans-serif;
     font-weight: bold;
     margin: 20px 0px;
 }
-.bannerDesc{
+
+.bannerDesc {
     font-size: 18px;
     font-family: "Oswald", sans-serif;
     margin: 20px 0px;
 }
-.bannerDesc span{
+
+.bannerDesc span {
     background-color: black;
     color: white;
     padding: 5px;
 }
-.bannerImg{
+
+.bannerImg {
     position: relative;
     background-color: #ccc;
 }
-.bannerInnerImg img{
+
+.bannerInnerImg img {
     max-width: 100%;
     height: auto;
 }
 
-.bannerTittle{
-   font-size: 40px;
-   font-family: "Oswald", sans-serif;
-   margin: 15px 0px;
+.bannerTittle {
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+    margin: 15px 0px;
 }
-.bannerInnerSubtitle{
+
+.bannerInnerSubtitle {
     font-size: 60px;
     margin: 15px 0px;
 }
-.bannerTittle, .bannerInnerSubtitle{
+
+.bannerTittle,
+.bannerInnerSubtitle {
     color: white;
 }
-.bannerInnerDetails{
+
+.bannerInnerDetails {
     position: absolute;
     top: 50%;
     left: 0;
     transform: translate(0%, -50%);
     margin-left: 20px;
 }
-.bannerInnerDetails button{
+
+.bannerInnerDetails .subBtn {
     padding: 10px 20px;
     background-color: #ccc;
     color: black;
@@ -148,7 +173,244 @@ header{
     cursor: pointer;
     transition: .4s;
 }
-.bannerInnerDetails button:hover{
+
+
+
+.bannerInnerDetails button:hover {
     background-color: #edecec;
 }
+
 /* Banner section end */
+
+/* fashion details section style start */
+.fashionDetailsSection {
+    background-color: #ccc;
+    padding: 15px;
+
+}
+
+.greatfashionBloge {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.fashionBloogeTitle {
+    font-size: 25px;
+    margin: 15px 0px;
+}
+
+.fashionBloogeSubTitle {
+    font-size: 16px;
+    margin: 15px 0px;
+}
+
+.bloogePostImg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bloogePostbottomDesc {
+    margin: 15px 0px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.bloogePostbottomDesc span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.likeCommentContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.likescontent {
+    border: 1px solid gray;
+    padding: 7px 10px;
+}
+
+.commentcontent {
+    background-color: black;
+    color: white;
+    padding: 7px 10px;
+}
+
+.commentcontent .number {
+    background-color: white;
+    color: black;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.greatePostFollwer {
+    display: flex;
+    column-gap: 15px;
+}
+
+.follwerImg img {
+    width: 100px;
+    height: auto;
+}
+
+.follwerDetails .detailsTitle {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.follwerDetails .detailsSubTitle {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* fashion right side design  */
+.mySelfDiv {
+    background-image: url('../imges/avatar_girl2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    opacity: .7;
+}
+
+.myselfDetails .mySelfTitle {
+    font-size: 20px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    margin: 20px 0px;
+}
+
+.myselfDetails .desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+.popularDiv {
+    margin: 20px 0px;
+}
+
+.popularDetailsContent {
+    display: flex;
+    column-gap: 20px;
+    margin: 10px 0px;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.popularImg img {
+    width: 80px;
+    height: auto;
+}
+
+.advertiseAdd {
+    background-color: white;
+    padding: 10px;
+}
+
+.advertise .addhere {
+    background-color: #f1f1f1;
+    height: 300px;
+
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tagsContainer {
+    margin: 20px 0px;
+}
+
+.tagsContent {
+    background-color: white;
+    padding: 10px;
+}
+
+.tagsContent span {
+    background-color: #ccc;
+    padding: 5px;
+    margin: 7px;
+    display: inline-block;
+}
+
+.tagsContent .fashion {
+    background-color: black;
+    color: white;
+    padding: 7px;
+}
+
+.inspiaration {
+    margin: 20px 0px;
+}
+
+.inspirationContents {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: white;
+}
+
+.inspirationContents img {
+    max-width: 44%;
+    margin: 10px 10px;
+    height: auto;
+}
+
+.followMe {
+    background-color: white;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.followMeSocials {
+    display: flex;
+}
+
+.followMe li {
+    padding: 10px;
+    /* margin-right: 10px; */
+    font-size: 20px;
+}
+
+.subDetails {
+    background-color: white;
+    padding: 10px;
+}
+
+.subscribe,
+.subDetails input,
+.subDetailsBtn {
+    width: 100%;
+    padding: 7px 10px;
+    margin: 10px 0px;
+    outline: none;
+
+}
+
+.subDetails button {
+    background-color: #F14538;
+    font-size: 18px;
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.subDetails button:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+/* fashion details section style end */

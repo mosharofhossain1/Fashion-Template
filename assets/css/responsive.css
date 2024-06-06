@@ -1,27 +1,73 @@
 @media screen and (max-width : 576px) {
-    header{
-       display: none;
+    header {
+        display: none;
     }
-   
-    .bannerTittle{
+
+    .bannerTittle {
         font-size: 40px;
         font-family: "Oswald", sans-serif;
-         
-     }
-     .bannerInnerSubtitle{
+
+    }
+
+    .bannerInnerSubtitle {
         display: none;
-     }
+    }
+
+    .inspirationContents {
+        text-align: center;
+    }
+
+    .inspirationContents img {
+        max-width: 40%;
+        height: auto;
+        margin: 7px auto;
+    }
 }
 
 @media screen and (min-width: 577px) {
-    .bannerTopDetails{
+    .bannerTopDetails {
         background-color: #fff;
         width: 400px;
         margin: auto;
         text-align: center;
         padding: 50px 0px;
     }
-    .bannerTtitle{
+
+    .bannerTtitle {
         font-size: 40px;
+    }
+
+    .fashionDetailsleftContents {
+        max-width: 100%;
+    }
+
+    .bloogePostImg img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* .inspirationContents img {
+        max-width: 45%;
+        height: auto;
+        margin: 7px auto;
+    } */
+
+
+
+}
+
+@media screen and (min-width: 768px) {
+    .fashionDetailsContainer {
+        display: flex;
+        column-gap: 10px;
+        justify-content: space-between;
+    }
+
+    .fashionDetailsleftContents {
+        flex: 75%;
+    }
+
+    .fashionDetailsRightContents {
+        flex: 30%;
     }
 }
